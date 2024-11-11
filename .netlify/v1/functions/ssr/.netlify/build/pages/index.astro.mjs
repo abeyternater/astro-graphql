@@ -8,7 +8,7 @@ import 'clsx';
 export { renderers } from '../renderers.mjs';
 
 const client = new ApolloClient({
-  uri: "http://localhost:4321/api/graphql",
+  uri: "http://localhost:4321",
   cache: new InMemoryCache()
 });
 

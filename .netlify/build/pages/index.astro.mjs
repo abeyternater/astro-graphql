@@ -1,8 +1,11 @@
-import { e as createAstro, f as createComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute, i as renderHead, j as renderComponent } from '../astro_4ccfaa11.mjs';
+import { c as createComponent, r as renderTemplate, m as maybeRenderHead, b as createAstro, a as addAttribute, d as renderHead, e as renderComponent } from '../chunks/astro/server_DBrFK284.mjs';
+import 'kleur/colors';
 import 'html-escaper';
 import { ApolloClient, InMemoryCache } from '@apollo/client/core/index.js';
 import gql from 'graphql-tag';
-/* empty css                           */import 'clsx';
+/* empty css                                 */
+import 'clsx';
+export { renderers } from '../renderers.mjs';
 
 const client = new ApolloClient({
   uri: "http://localhost:4321/api/graphql",
@@ -39,4 +42,13 @@ const $$Index = createComponent(async ($$result, $$props, $$slots) => {
 const $$file = "/Users/abeyternater/Documents/astro-examples/astro-graphql/src/pages/index.astro";
 const $$url = "";
 
-export { $$Index as default, $$file as file, $$url as url };
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Index,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

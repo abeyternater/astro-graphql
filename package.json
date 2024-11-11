@@ -12,8 +12,8 @@
   "dependencies": {
     "@apollo/client": "^3.11.9",
     "@astrojs/netlify": "^5.5.4",
-    "@astrojs/node": "^6.1.0",
-    "astro": "^3.6.5",
+    "@astrojs/node": "^8.3.4",
+    "astro": "^4.16.10",
     "graphql": "^16.9.0",
     "graphql-yoga": "^4.0.5"
   },

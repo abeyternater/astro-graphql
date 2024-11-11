@@ -1,4 +1,5 @@
 import { createSchema, createYoga } from 'graphql-yoga';
+export { renderers } from '../../renderers.mjs';
 
 const ShoppingCart = [
   {
@@ -64,4 +65,11 @@ const POST = async (context) => {
   return handleRequest(request, context);
 };
 
-export { POST };
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  POST
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

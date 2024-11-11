@@ -1,6 +1,6 @@
 import * as adapter from '@astrojs/netlify/ssr-function.js';
 import { renderers } from './renderers.mjs';
-import { manifest } from './manifest_0676a2bb.mjs';
+import { manifest } from './manifest_7231549a.mjs';
 
 const _page0  = () => import('./chunks/generic_6e56fcba.mjs');
 const _page1  = () => import('./chunks/index_188ba4a7.mjs');
@@ -9,7 +9,7 @@ const _manifest = Object.assign(manifest, {
 	pageMap,
 	renderers,
 });
-const _args = {"middlewareSecret":"449daf4d-5758-4fbf-81c7-bfdef9cf7b00"};
+const _args = {"middlewareSecret":"a9bd565c-f1d2-444b-883f-f3aeccde1c7a"};
 
 const _exports = adapter.createExports(_manifest, _args);
 const _default = _exports['default'];

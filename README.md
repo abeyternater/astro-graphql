@@ -34,6 +34,8 @@ Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page
 
 There's nothing special about `src/components/`, but that's where you can put any Astro/React/Vue/Svelte/Preact components.
 
+https://stackoverflow.com/questions/64936044/fix-the-upstream-dependency-conflict-installing-npm-packages
+
 The `src/data` directory holds some types and dummy data we can use with GraphQL.
 
 In `src/lib` there's a really simple implemenation of Apollo Client, used to physically call our GraphQL endpoint.
